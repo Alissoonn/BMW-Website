@@ -1,0 +1,131 @@
+@charset "UTF-8";
+body{
+    background-color:white;
+}
+:root{
+    --cor0:#1C42FF;
+    --cor1:#435DE1;
+    --cor3:#768CFA;
+    --cor4:#A4B4FA;
+    --cor5:#D8E0FF;
+    }
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+h1#titulo1{
+    text-align: center;
+    font-family: 'Handjet', cursive;
+    font-family: 'Noto Serif Khojki', serif;
+    color:white;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px black;
+}
+
+h1#titulo2{
+    text-align: center;
+    font-family: 'Handjet', cursive;
+    font-family: 'Noto Serif Khojki', serif;
+    color: black;
+    padding-bottom: 30px;
+    }
+
+p {
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: 'Handjet', cursive;
+    font-family: 'Noto Serif Khojki', serif;
+    background-image: linear-gradient(to right, var(--cor0),transparent);
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+h3{
+    font-family: 'Handjet', cursive;
+    font-family: 'Noto Serif Khojki', serif; 
+    
+}
+
+header{
+    background-image: linear-gradient(to top,var(--cor0), var(--cor4));
+    min-height: 150px;
+    padding-top: 30px;
+    text-align: center;
+    margin: -17px 80px;
+    border-radius: 10px;
+
+}
+
+header > p {
+    color:white;
+    font-family: 'Handjet', cursive;
+    font-family: 'Noto Serif Khojki', serif;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 0px black;
+}
+
+
+img{
+    width: 70%;
+}
+
+nav{
+    background-color: #1C42FF;
+    padding: 18px;
+    box-shadow:0px 3px 10px black ;
+    margin: -17px 80px;
+    text-align: center;
+    
+}
+
+nav > a{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Handjet', cursive;
+    font-family: 'Noto Serif Khojki', serif;
+    font-weight: bold; 
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor5);
+    color: var(--cor0);
+}
+
+main{
+    background-color: gainsboro;
+    border-radius: 5px;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);   
+    margin: auto;
+    padding: 30px;
+    padding-bottom:30px;
+    margin-top: 20px;
+}
+
+footer p {
+    background-color: white;
+    background-color: var(--cor0);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    min-height: 150px;
+    padding-top: 18px;
+    text-align: center;
+    margin: -30px 411px;
+
+}
+
